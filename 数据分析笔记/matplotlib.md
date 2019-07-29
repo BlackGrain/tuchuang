@@ -90,7 +90,7 @@ matplotlib的基本使用——学习笔记
     * `plt.xticks(x, _x, rotation = 45, fontproperties=my_font)`
     * 此外，有一特例，图例函数`lengend()`中，需要添加参数为`prop=my_font`
 
-> ** ☞小例子5.1 **
+> **☞小例子5.1**
 >
 > ```python
 > from matplotlib import pyplot as plt
@@ -153,7 +153,7 @@ matplotlib的基本使用——学习笔记
 * `plt.plot(x,  y, label="label") `    #在`plt.plot`中添加参数`label="label"`
 * `plt.legend(prop=my_font, loc="best")`   #参数`prop=my_font`定义中文字符,参数`loc`定义图例的生成位置，具体请见matplotlib源码注释。
 
->** ☞小例子 **
+> **☞小例子**
 >
 >```python
 >from matplotlib import pyplot as plt
@@ -194,7 +194,7 @@ matplotlib的基本使用——学习笔记
 * **特点:**判断变量之间是否存在数量关联趋势,展示离群点(分布规律)
 * 方法:`plt.scatter(x, y)`
 
->** ☞小例子10.1 **
+> **☞小例子10.1**
 >
 >```python
 >from matplotlib import pyplot as plt
@@ -248,7 +248,7 @@ matplotlib的基本使用——学习笔记
 * 特点:绘制连离散的数据,能够一眼看出各个数据的大小,比较数据之间的差别。
 * 方法:plt.bar(x, y, width = , color = ）
 
->** ☞小例子11.1 **
+> **☞小例子11.1**
 >
 >```python
 >from matplotlib import pyplot as plt
