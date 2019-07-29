@@ -29,7 +29,7 @@ matplotlib的基本使用——学习笔记
   * 显示图案
     * `plot.show()`
 
-> ** ☞小例子2.1 ** 
+>  **☞小例子2.1** 
 >
 > ```python
 > from matplotlib import pyplot as plt
