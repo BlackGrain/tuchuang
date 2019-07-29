@@ -5,9 +5,9 @@ matplotlib的基本使用——学习笔记
 
 #### 1、matplotlib简介
 
-​	[matplotlib](https://matplotlib.org/)是Python最流行的底层绘图库，主要做数据可视化图表，名字取材于MATLAB[^ ①]，模仿MATLAB构建。
+​	[matplotlib](https://matplotlib.org/)是Python最流行的底层绘图库，主要做数据可视化图表，名字取材于MATLAB[^①]，模仿MATLAB构建。
 
-####2、基本使用
+#### 2、基本使用
 
 * 导入
   
@@ -29,7 +29,7 @@ matplotlib的基本使用——学习笔记
   * 显示图案
     * `plot.show()`
 
-> **☞小例子2.1** 
+> ** ☞小例子2.1 ** 
 >
 > ```python
 > from matplotlib import pyplot as plt
@@ -53,7 +53,7 @@ matplotlib的基本使用——学习笔记
 * `plt.xticks(x[::2])`当刻度较为密集的时候开业使用步长取较为稀疏的刻度
   * `plt.xticks(x, _x, rotation=45)`参数`x`表示刻度，参数`_x`表示与刻度对应的标记字符串，参数`rotation`表示标记字符串的旋转角度。`x` ` _x`长度一致，互相对应。当`_x`缺失时，坐标轴标记即显示刻度。
 
-> **☞小例子4.1**
+> ** ☞小例子4.1 **
 >
 > ```python
 > from matplotlib import pyplot as plt
@@ -90,7 +90,7 @@ matplotlib的基本使用——学习笔记
     * `plt.xticks(x, _x, rotation = 45, fontproperties=my_font)`
     * 此外，有一特例，图例函数`lengend()`中，需要添加参数为`prop=my_font`
 
-> **☞小例子5.1**
+> ** ☞小例子5.1 **
 >
 > ```python
 > from matplotlib import pyplot as plt
@@ -153,7 +153,7 @@ matplotlib的基本使用——学习笔记
 * `plt.plot(x,  y, label="label") `    #在`plt.plot`中添加参数`label="label"`
 * `plt.legend(prop=my_font, loc="best")`   #参数`prop=my_font`定义中文字符,参数`loc`定义图例的生成位置，具体请见matplotlib源码注释。
 
->**☞小例子**
+>** ☞小例子 **
 >
 >```python
 >from matplotlib import pyplot as plt
@@ -194,7 +194,7 @@ matplotlib的基本使用——学习笔记
 * **特点:**判断变量之间是否存在数量关联趋势,展示离群点(分布规律)
 * 方法:`plt.scatter(x, y)`
 
->**☞小例子10.1**
+>** ☞小例子10.1 **
 >
 >```python
 >from matplotlib import pyplot as plt
@@ -248,7 +248,7 @@ matplotlib的基本使用——学习笔记
 * 特点:绘制连离散的数据,能够一眼看出各个数据的大小,比较数据之间的差别。
 * 方法:plt.bar(x, y, width = , color = ）
 
->**☞小例子11.1**
+>** ☞小例子11.1 **
 >
 >```python
 >from matplotlib import pyplot as plt
